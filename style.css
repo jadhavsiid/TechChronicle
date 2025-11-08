@@ -1,0 +1,230 @@
+/* ^ Importing Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f8d9c6;
+  font-family: "Playfair Display", serif;
+}
+/* ^ Header */
+header {
+  background-color: #2e005d;
+  width: 100%;
+  height: 180px;
+  border-bottom: 7px solid #ff6200;
+}
+h1#site-title {
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+}
+h1#site-title::first-letter {
+  font-size: 5rem;
+  color: #ff6200;
+  letter-spacing: 2px;
+}
+/* ^ Nav links */
+.nav-btns {
+  text-align: center;
+  margin-top: 0.5rem;
+}
+.nav-btns > li > ul {
+  display: inline-block;
+  margin: 0 30px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.nav-btns > li > ul:hover {
+  color: #ff6200;
+}
+/* ^ Featured Articles */
+.featured-art {
+  width: 1000px;
+  height: 625px;
+  background-color: white;
+  margin: 2rem auto;
+  border: 2px solid #ff8300;
+  border-radius: 40px;
+}
+.main-headings {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 2rem;
+}
+.featured-art h3 {
+  color: #ff8300;
+}
+.featured-art h4 {
+  margin: 1rem 3rem;
+  font-size: 1.5rem;
+  color: #2e005d;
+}
+.art-desc {
+  margin: 0 3rem;
+  font-size: 1rem;
+}
+.featured-art img {
+  width: 904px;
+  height: 400px;
+  margin: 1rem 3rem;
+  border-radius: 20px;
+}
+p#img-title {
+  text-align: center;
+  color: #495057;
+  font-weight: 600;
+}
+/* ^ Latest Articles Section */
+h3#latest-art {
+  color: #2e005d;
+}
+.article-box {
+  width: 800px;
+  height: 318px;
+  background-color: white;
+  margin: 2.5rem auto;
+  border-radius: 100px 40px 100px 40px;
+}
+#first-article {
+  border: 3px solid #5c008b;
+}
+
+#first-article img {
+  width: 250px;
+  height: 150px;
+  margin: 2rem 3rem;
+  border-radius: 20px;
+}
+#first-article h4 {
+  margin-left: 3rem;
+  color: #5c008b;
+  font-size: 1.5rem;
+}
+#second-article {
+  border: 3px solid #ff8300;
+}
+#second-article img {
+  width: 250px;
+  height: 150px;
+  margin: 2rem 3rem;
+  border-radius: 20px;
+}
+#second-article h4 {
+  margin-left: 3rem;
+  color: #ff8300;
+  font-size: 1.5rem;
+}
+#third-article {
+  border: 3px solid #8e008b;
+}
+#third-article img {
+  width: 250px;
+  height: 150px;
+  margin: 2rem 3rem;
+  border-radius: 20px;
+}
+#third-article h4 {
+  margin-left: 3rem;
+  color: #8e008b;
+  font-size: 1.5rem;
+}
+/* ^ Editor Picks */
+.Editor-picks {
+  width: 720px;
+  height: 250px;
+  background-color: white;
+  margin: 2rem auto;
+  border: 2px solid #ff8300;
+  border-radius: 40px;
+}
+.Editor-picks h3 {
+  color: #2e005d;
+}
+.Editor-picks hr {
+  border: none;
+  height: 2px;
+  background-color: #2e005d;
+  font-weight: bold;
+  margin: 0.5rem 2rem;
+}
+.Editor-picks ul li {
+  margin-left: 3.5rem;
+  margin-bottom: 0.7rem;
+  color: #ff8300;
+  font-weight: 500;
+  font-size: 1.3rem;
+  text-decoration: underline;
+  cursor: pointer;
+}
+/* ^ Contact form */
+h3#form-head {
+  color: #2e005d;
+}
+.contact-form {
+  width: 830px;
+  height: 550px;
+  background-color: white;
+  margin: 2rem auto;
+  border: 2px solid #8e008b;
+  border-radius: 40px;
+}
+.contact-form h5 {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  font-size: 1.2rem;
+  color: #8e008b;
+}
+.contact-form input {
+  width: 750px;
+  height: 50px;
+  margin: 1rem 2rem;
+  padding: 1rem 2rem;
+  background: transparent;
+  border: 2px solid #8e008b;
+  border-radius: 20px;
+}
+.contact-form input::placeholder {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+}
+.contact-form textarea {
+  margin: 1rem 2rem;
+  padding: 1rem 2rem;
+  background: transparent;
+  border: 2px solid #8e008b;
+  border-radius: 20px;
+}
+.contact-form textarea::placeholder {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+}
+.contact-form button {
+  margin: 0.5rem 2.5rem;
+  padding: 0.5rem 0.5rem;
+  background-color: #8e008b;
+  color: #ffffff;
+  border: none;
+  border-radius: 20px;
+  font-size: 1rem;
+  font-family: "Playfair Display", serif;
+}
+.contact-form button:hover {
+  cursor: pointer;
+}
+footer {
+  background-color: #2e005d;
+  width: 100%;
+  height: 5rem;
+  border-top: 7px solid #ff6200;
+}
+footer p {
+  text-align: center;
+  margin: 1rem 1rem;
+  color: #ffffff;
+  font-size: 1.2rem;
+}

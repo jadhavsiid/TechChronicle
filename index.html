@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- * Linking CSS -->
+    <link rel="stylesheet" href="./style.css" />
+    <title>Techchronicle</title>
+  </head>
+  <body>
+    <!-- * Header -->
+    <header>
+      <h1 id="site-title">TechChronicle</h1>
+      <div class="nav-btns">
+        <li>
+          <ul>
+            Home
+          </ul>
+          <ul>
+            Article
+          </ul>
+          <ul>
+            Reviews
+          </ul>
+          <ul>
+            Contact
+          </ul>
+        </li>
+      </div>
+    </header>
+    <!-- * Featured Articles -->
+    <div class="featured-art">
+      <h3 class="main-headings">Featured Article</h3>
+      <h4>AI Revolution: The Next Big Leap</h4>
+      <p class="art-desc">
+        Artificial Intelligence is transforming industries. From automation to
+        creativity, AI is redefining human potential.
+      </p>
+      <img src="./task-imgs/featured-art-img.png" alt="AI Revolution in 2025" />
+      <p id="img-title">AI Revolution in 2025</p>
+    </div>
+    <!-- * Latest Articles -->
+    <h3 class="main-headings" id="latest-art">Latest Articles</h3>
+    <div class="article-box" id="first-article">
+      <img
+        src="./task-imgs/first-article-img.png"
+        alt="cybersecurity in modern age"
+      />
+      <h4>Cybersecurity in the Modern Age</h4>
+      <p class="art-desc">
+        With the rise of digital threats, cybersecurity has become one of the
+        most critical domains for developers worldwide.
+      </p>
+    </div>
+    <div class="article-box" id="second-article">
+      <img src="./task-imgs/second-article-img.png" alt="Quantum Computing" />
+      <h4>Quantum Computing</h4>
+      <p class="art-desc">
+        Understanding <span style="font-weight: bold">qubits</span> and 
+        <span style="font-weight: bold">superposition</span> can unlock a new
+        world of computational power.
+      </p>
+    </div>
+    <div class="article-box" id="third-article">
+      <img src="./task-imgs/third-article-img.png" alt="Quantum Computing" />
+      <h4>Web3: The Decentralized Web</h4>
+      <p class="art-desc">
+        Web3 promises a future of transparency and decentralization, giving
+        users more control over their data and identity..
+      </p>
+    </div>
+    <!-- * Editor Picks Section -->
+    <div class="Editor-picks">
+      <h3 class="main-headings">Editor Picks</h3>
+      <hr />
+      <ul>
+        <li>Best JavaScript Practices</li>
+        <li>5 Must Have VSCode Extensions</li>
+        <li>Why CSS Specificity Matters</li>
+      </ul>
+      <marquee behavior="alternate" direction="right"
+        >Stay Curious. Stay Updated 🚀</marquee
+      >
+    </div>
+    <!-- * Contact the Editor -->
+    <h3 class="main-headings" id="form-head">Contact The Editor</h3>
+    <div class="contact-form">
+      <h5>Your Name:</h5>
+      <input type="text" name="name" id="name" placeholder="Eg: John Doe" />
+      <br />
+      <h5>Your Email:</h5>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Eg:JohnDoe123@gmail.com"
+      />
+      <br />
+      <h5>Message:</h5>
+      <textarea
+        name="message"
+        id="message"
+        cols="90"
+        rows="5"
+        placeholder="Leave Your Message Here"
+      ></textarea>
+      <br />
+      <button>Send Message</button>
+    </div>
+    <!-- * Header -->
+    <footer>
+      <p>© 2025 TechChronicle  | All Rights Reserved</p>
+    </footer>
+  </body>
+</html>
